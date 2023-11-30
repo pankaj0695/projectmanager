@@ -1,10 +1,10 @@
 import { useContext } from 'react';
 
-import ProjectsSidebar from './components/ProjectsSideBar';
-import NewProject from './components/NewProject';
-import NoProjectSelected from './components/NoProjectSelected';
-import ProjectDetail from './components/ProjectDetail';
-import { ProjectContext } from './store/project-context';
+import ProjectsSidebar from './components/ProjectsSideBar.jsx';
+import NewProject from './components/NewProject.jsx';
+import NoProjectSelected from './components/NoProjectSelected.jsx';
+import ProjectDetail from './components/ProjectDetail.jsx';
+import { ProjectContext } from './store/project-context.jsx';
 
 function App() {
   const { projects, selectedProjectId } = useContext(ProjectContext);
