@@ -1,8 +1,8 @@
 import { forwardRef, useImperativeHandle, useRef, useContext } from 'react';
 import { createPortal } from 'react-dom';
 
-import Button from './Button';
-import { ProjectContext } from '../store/project-context';
+import Button from './Button.jsx';
+import { ProjectContext } from '../store/project-context.jsx';
 
 const Modal = forwardRef(({ children, buttonCaption }, ref) => {
   const dialogRef = useRef();

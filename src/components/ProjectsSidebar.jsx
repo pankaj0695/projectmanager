@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 
-import Button from './Button';
-import { ProjectContext } from '../store/project-context';
+import Button from './Button.jsx';
+import { ProjectContext } from '../store/project-context.jsx';
 
 function ProjectsSidebar() {
   const { projects, selectedProjectId, selectProject, startAddProject } =

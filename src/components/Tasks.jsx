@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 
-import NewTask from './NewTask';
-import { ProjectContext } from '../store/project-context';
+import NewTask from './NewTask.jsx';
+import { ProjectContext } from '../store/project-context.jsx';
 
 function Tasks() {
   const { selectedProjectId, tasks, deleteTask } = useContext(ProjectContext);

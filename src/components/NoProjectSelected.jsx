@@ -1,8 +1,8 @@
 import { useContext } from 'react';
 
 import noProjectImage from '../assets/no-projects.png';
-import Button from './Button';
-import { ProjectContext } from '../store/project-context';
+import Button from './Button.jsx';
+import { ProjectContext } from '../store/project-context.jsx';
 
 function NoProjectSelected() {
   const { startAddProject } = useContext(ProjectContext);

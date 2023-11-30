@@ -1,6 +1,6 @@
 import { useState, useContext } from 'react';
 
-import { ProjectContext } from '../store/project-context';
+import { ProjectContext } from '../store/project-context.jsx';
 
 function NewTask() {
   const [task, setTask] = useState('');

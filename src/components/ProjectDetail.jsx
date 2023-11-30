@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 
-import Tasks from './Tasks';
-import Modal from './Modal';
+import Tasks from './Tasks.jsx';
+import Modal from './Modal.jsx';
 
 function ProjectDetail({ project }) {
   const modalRef = useRef();

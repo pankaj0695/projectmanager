@@ -1,8 +1,8 @@
 import { useRef, useContext } from 'react';
 
-import Input from './Input';
-import Modal from './Modal';
-import { ProjectContext } from '../store/project-context';
+import Input from './Input.jsx';
+import Modal from './Modal.jsx';
+import { ProjectContext } from '../store/project-context.jsx';
 
 function NewProject() {
   const titleRef = useRef();
